@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    text-align: center;
+}
+header {
+    padding: 20px;
+    background: #4CAF50;
+    color: white;
+}
+section {
+    padding: 20px;
+}
+input[type="file"] {
+    margin: 20px 0;
+}
+button {
+    padding: 10px 20px;
+    background: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+button:hover {
+    background: #45a049;
+}
+.image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+.image-container div {
+    text-align: center;
+}
+img {
+    max-width: 300px;
+    border: 1px solid #ccc;
+    margin-top: 10px;
+}

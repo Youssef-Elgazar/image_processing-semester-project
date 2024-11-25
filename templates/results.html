@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Results</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Processing Results</h1>
+    </header>
+    <section>
+        <div class="image-container">
+            <div>
+                <h3>Enhancement: Original Image</h3>
+                <img src="{{ url_for('processed_file', filename='original.png') }}" alt="Original Image">
+            </div>
+            <div>
+                <h3>Power Law</h3>
+                <img src="{{ url_for('processed_file', filename='enhanced1.png') }}" alt="Enhanced Image 1">
+            </div>
+            <div>
+                <h3>Graylevel Slicing</h3>
+                <img src="{{ url_for('processed_file', filename='enhanced2.png') }}" alt="Enhanced Image 2">
+            </div>
+            <!-- Placeholder for your compressed and segmented images -->
+        </div>
+    </section>
+</body>
+</html>
