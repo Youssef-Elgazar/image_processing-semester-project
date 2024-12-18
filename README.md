@@ -3,11 +3,14 @@
 
 ## Team Members
 - Youssef Ali Elsayed - 20100251.
-- [Team Member 2 Name]
-- [Team Member 3 Name]
-- [Add More Team Members as Needed]
 
----
+- Youssef Mohammed Magdy Elbanna - 21100841.
+
+- Ahmed hamed abdelaziz - 20100316.
+
+- Nadira Mohamed abdallah Ismail Elsirafy - 22101377.
+
+- Basant Awad Mohamed - 22101405.
 
 ## Project Overview
 This project focuses on applying various image processing techniques, including enhancement, compression, and segmentation, to improve image quality and analyze image features effectively.
