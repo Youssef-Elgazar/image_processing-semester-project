@@ -24,7 +24,22 @@
                 <h3>Graylevel Slicing</h3>
                 <img src="{{ url_for('processed_file', filename='enhanced2.png') }}" alt="Enhanced Image 2">
             </div>
-            <!-- Placeholder for your compressed and segmented images -->
+            <div>
+                <h3>Compression: Half Size</h3>
+                <img src="{{ url_for('processed_file', filename='compressed1.png') }}" alt="Compressed Image 1">
+            </div>
+            <div>
+                <h3>Compression: Quarter Size</h3>
+                <img src="{{ url_for('processed_file', filename='compressed2.png') }}" alt="Compressed Image 2">
+            </div>
+            <div>
+                <h3>Segmentation: Threshold</h3>
+                <img src="{{ url_for('processed_file', filename='segmented1.png') }}" alt="Segmented Image 1">
+            </div>
+            <div>
+                <h3>Segmentation: Edge Detection</h3>
+                <img src="{{ url_for('processed_file', filename='segmented2.png') }}" alt="Segmented Image 2">
+            </div>
         </div>
     </section>
 </body>

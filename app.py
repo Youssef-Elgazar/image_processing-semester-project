@@ -91,18 +91,17 @@ def process_image(filepath):
 	cv2.imwrite(enhanced2_path, enhanced2)
 
 	# Compression and segmentation placeholders
+	#
+	#
+	#
+
 	# Save paths for where compressed and segmented images would go
 	compression1_path = os.path.join(app.config['PROCESSED_FOLDER'], 'compressed1.png')
 	compression2_path = os.path.join(app.config['PROCESSED_FOLDER'], 'compressed2.png')
 	segmentation1_path = os.path.join(app.config['PROCESSED_FOLDER'], 'segmented1.png')
 	segmentation2_path = os.path.join(app.config['PROCESSED_FOLDER'], 'segmented2.png')
 
-	# Placeholder: You can implement compression and segmentation logic here
-	# cv2.imwrite(compression1_path, ...)
-	# cv2.imwrite(segmentation1_path, ...)
 
-	# Use Matplotlib to create visualizations if needed
-	# Example: Save grayscale histogram
 	plt.hist(enhanced2.ravel(), bins=256, range=(0, 256), color='gray')
 	plt.title('Grayscale Histogram')
 	plt.xlabel('Pixel Intensity')
