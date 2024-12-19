@@ -13,32 +13,42 @@
     <section>
         <div class="image-container">
             <div>
-                <h3>Enhancement: Original Image</h3>
+                <h3>Original Image</h3>
                 <img src="{{ url_for('processed_file', filename='original.png') }}" alt="Original Image">
             </div>
+        </div>
+        <div class="image-container">
             <div>
-                <h3>Power Law</h3>
+                <h3>Enhancement: Power Law</h3>
                 <img src="{{ url_for('processed_file', filename='enhanced1.png') }}" alt="Enhanced Image 1">
             </div>
             <div>
                 <h3>Graylevel Slicing</h3>
                 <img src="{{ url_for('processed_file', filename='enhanced2.png') }}" alt="Enhanced Image 2">
             </div>
+            </div>
+    </section>
+    <section>
+        <div class="image-container">
             <div>
-                <h3>Compression: Half Size</h3>
-                <img src="{{ url_for('processed_file', filename='compressed1.png') }}" alt="Compressed Image 1">
+                <h3>Compression: JPEG</h3>
+                <img src="{{ url_for('processed_file', filename='compressed1.jpg') }}" alt="Compressed JPEG">
             </div>
             <div>
-                <h3>Compression: Quarter Size</h3>
-                <img src="{{ url_for('processed_file', filename='compressed2.png') }}" alt="Compressed Image 2">
+                <h3>Principal Component Analysis</h3>
+                <img src="{{ url_for('processed_file', filename='compressed2.png') }}" alt="Compressed PCA">
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="image-container">
+            <div>
+                <h3>Segmentation: Watershed</h3>
+                <img src="{{ url_for('processed_file', filename='segmented1.png') }}" alt="Watershed Segmentation">
             </div>
             <div>
-                <h3>Segmentation: Threshold</h3>
-                <img src="{{ url_for('processed_file', filename='segmented1.png') }}" alt="Segmented Image 1">
-            </div>
-            <div>
-                <h3>Segmentation: Edge Detection</h3>
-                <img src="{{ url_for('processed_file', filename='segmented2.png') }}" alt="Segmented Image 2">
+                <h3>K-means</h3>
+                <img src="{{ url_for('processed_file', filename='segmented2.png') }}" alt="K-means Segmentation">
             </div>
         </div>
     </section>
