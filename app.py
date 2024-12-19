@@ -1,4 +1,4 @@
-# pip install flask numpy pandas matplotlib opencv-python
+# pip install flask numpy pandas matplotlib opencv-python scikit-image
 
 from flask import Flask, render_template, request, redirect, url_for, send_from_directory
 from skimage.segmentation import clear_border
